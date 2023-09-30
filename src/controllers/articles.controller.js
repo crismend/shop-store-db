@@ -41,6 +41,7 @@ export const postArticles = async (req, res) => {
       valorT,
       stock,
     })
+
   } catch (error) {
     return res.status(500).json({
       message: 'something goes grong'
