@@ -11,6 +11,7 @@ CREATE TABLE articles (
   stock INT(5) DEFAULT NULL,
   PRIMARY KEY (id)
 )
+
 show tables
 DESCRIBE articles;
 
